@@ -1,0 +1,26 @@
+package trabalhoDandoDeDados;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+
+public class programaprincipal {
+	
+		public static void main(String[] args) {
+		
+			ID id = new ID();
+			id.adicionarID("001",10,2005);
+			id.adicionarID("002",10,2000);
+			id.adicionarID("005",10,2000);
+			id.adicionarID("015",10,2009);
+			id.ordenar();
+			System.out.println(id.getDados(015);
+			//System.out.println(indice[002]);
+			//System.out.println(getAll());
+			/*for(int i = 0; i < id.size(); i++){
+		        System.out.println(i+": "+id.get(i));
+		    }*/
+		}
+
+	
+}

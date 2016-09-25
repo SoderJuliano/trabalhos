@@ -1,0 +1,25 @@
+package trabalhoDandoDeDados;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.HashMap;
+
+public class programaprincipal {
+	
+		public static void main(String[] args) {
+		
+			ID id = new ID();
+			id.adicionarID("101",10,2005);
+			id.adicionarID("002",10,2008);
+			id.adicionarID("005",10,2007);
+			id.adicionarID("015",10,2009);
+			id.adicionarID("006",01,2007);
+			id.adicionarID("011",12,2009);
+			id.ordenar();
+			System.out.println(id.getAll());
+			System.out.println(id.getDados("005"));
+			System.out.println("busca binaria "+id.buscaBinaria("009"));
+		}
+
+	
+}
