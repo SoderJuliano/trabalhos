@@ -1,5 +1,0 @@
-package trabalhoDandoDeDados;
-
-public class ArrayListAnnySize<E> {
-
-}
